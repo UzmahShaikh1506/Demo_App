@@ -12,6 +12,9 @@ class Myscreen extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 119, 85, 176),
         leading: Icon(Icons.arrow_back_ios_new),
       ),
+      body: Center(
+        child: Image(image: AssetImage('assets/images/girl.jpg')),
+      ),
     );
   }
 }
